@@ -1,7 +1,14 @@
-/*Theme Name: [Delivery service ]
-Theme URI: [The theme website]
-Description: [A description]
-Author: [Anumadu Udodiri Moses (Alloyking1)]
-Author URI: [https://alloyking1.github.io]
-.[Any other comments].*/
+/*Theme Name: Delivery service 
+Theme URI: The theme website
+Description: A description
+Author: Anumadu Udodiri Moses (Alloyking1)
+Author URI: https://alloyking1.github.io
+.Any other comments.*/
+
+
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";  
+@import "theme/assets/vendor/nucleo/css/nucleo.css";
+@import "theme/assets/vendor/font-awesome/css/font-awesome.min.css";
+@import "theme/assets/css/argon.css?v=1.1.0";
+
 
