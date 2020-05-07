@@ -1,7 +1,5 @@
 <?php get_header(); ?>
-    <!--  -->
     <main>
-
         <section class="section section-lg">
             <div class="container">
                 <div class="row row-grid align-items-center">
