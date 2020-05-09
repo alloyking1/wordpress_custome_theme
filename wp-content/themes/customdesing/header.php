@@ -38,7 +38,7 @@
 
 <body>
     <header class="header-global">
-        <!-- <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg  navbar-light headroom">
+        <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg  navbar-light headroom">
             <div class="container">
                 <a class="navbar-brand mr-lg-5" href="./index.html">
                 <img alt="image" src="./assets/img/brand/white.png">
@@ -149,7 +149,7 @@
                 </ul>
                 </div>
             </div>
-        </nav> -->
-        <div id="logo">LOGO</div>
-        <?php wp_nav_menu('primary'); ?>
+        </nav>
+        <!-- <div id="logo">LOGO</div>
+        <?php wp_nav_menu('primary'); ?> -->
     </header> 

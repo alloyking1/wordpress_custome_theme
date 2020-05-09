@@ -10,5 +10,7 @@ Author URI: https://alloyking1.github.io
 @import "theme/assets/vendor/nucleo/css/nucleo.css";
 @import "theme/assets/vendor/font-awesome/css/font-awesome.min.css";
 @import "theme/assets/css/argon.css?v=1.1.0";
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+
 
 
