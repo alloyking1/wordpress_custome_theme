@@ -1,46 +1,37 @@
 <?php 
-    get_header(); 
-    
+  get_header();   
 ?>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<section class="section section-lg pt-lg-0 section-contact-us">
-      <div class="container">
-        <div class="row justify-content-center mt--300">
-          <div class="col-lg-8">
-            <div class="card bg-gradient-secondary shadow">
-              <div class="card-body p-lg-5">
-                <h4 class="mb-1">Want to work with us?</h4>
-                <p class="mt-0">Your project is very important to us.</p>
-                <div class="form-group mt-5">
-                  <div class="input-group input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="ni ni-user-run"></i></span>
-                    </div>
-                    <input class="form-control" placeholder="Your name" type="text">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="input-group input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
-                    </div>
-                    <input class="form-control" placeholder="Email address" type="email">
-                  </div>
-                </div>
-                <div class="form-group mb-4">
-                  <textarea class="form-control form-control-alternative" name="name" rows="4" cols="80" placeholder="Type a message..."></textarea>
-                </div>
-                <div>
-                  <button type="button" class="btn btn-default btn-round btn-block btn-lg">Send Message</button>
-                </div>
-              </div>
-            </div>
-          </div>
+<section style="background-color:#32325d; color:white">
+  <div class="container pt-150">
+    <div class="row pb-100">
+      <div class="col-md-8">
+        <h1 class="display-1" style="color:white !important">HAVE A</h1>
+        <h1 class="display-1" style="color:white !important">PROJECT</h1>
+        <p class="mb-0">We create original contents that engages and connects with people</p>
+        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        <div class="container pb-100 pt-100">
+          <button type="button" class="btn btn-default btn-outline-primary" style="border-radius:50px; padding:17px">Talk to us!</button>
         </div>
       </div>
-    </section>
+
+      <div class="col-md-4">
+        <ul style="list-style:none; line-height: 2.5rem;">
+          <li><b>Address</b></li>
+          <small>Around the world</small>
+          <li><b>Phone</b></li>
+          <small>+234 806 314 6940</small>
+          <li><b>Email</b></li>
+          <small>alloyking1@gmail.com</small>
+        </ul>
+      </div>
+    </div>
+    <!-- <div class="row pb-100">
+      
+    </div> -->
+  </div>
+</section>
 
 <?php
-    get_footer(); 
+  get_footer(); 
 ?>
