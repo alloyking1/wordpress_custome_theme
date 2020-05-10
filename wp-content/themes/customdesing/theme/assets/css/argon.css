@@ -53,6 +53,26 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 }
 
+body, html {
+height: 100%;
+/* background-color: black !important; */
+}
+
+.parallax {
+    /* The image used */
+    /* background-image: url("https://image.freepik.com/free-vector/soap-bubbles-floating-green-background-vector_53876-89761.jpg"); */
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 *,
 *::before,
 *::after

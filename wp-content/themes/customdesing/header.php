@@ -32,11 +32,11 @@
     <?php wp_head(); ?>
     <!-- Favicon -->
     <link href="<?php bloginfo('template_directory') ?>/theme/assets/img/brand/favicon.png" rel="icon" type="image/png">
- 
+    
 </head>
 
-<body>
-    <header class="header-global">
+<body class="parallax">
+    <header class="header-global ">
         <!-- <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
             <div class="container">
                 <a class="navbar-brand mr-lg-5" href="./index.html">

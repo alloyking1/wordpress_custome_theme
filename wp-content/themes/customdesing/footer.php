@@ -95,6 +95,8 @@
   <script src="./theme/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
   <!-- Argon JS -->
   <script src="./theme/assets/js/argon.js?v=1.1.0"></script>
+
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </body>
 
 </html>

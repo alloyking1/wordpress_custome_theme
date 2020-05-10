@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main>
+<main id="particles-js">
     <div class="position-relative">
       <section class="section section-lg pb-300 pt-200">
         <div>
