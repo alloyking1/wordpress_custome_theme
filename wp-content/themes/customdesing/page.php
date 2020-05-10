@@ -19,7 +19,7 @@
               if($workposts->have_posts()):
                   while($workposts->have_posts()){
                       $workposts->the_post(); ?>
-                      <div class="col-6">
+                      <div class="col-md-6">
                         <div class="card card-profile shadow mt--20">
                           <div class="px-4">
                             <div class="row justify-content-center">

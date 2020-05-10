@@ -1,4 +1,21 @@
 
+  <section>
+    <div class="container">
+      <div class="row pb-100">
+        <div class="col">
+          <h1 class="display-1">SAY HI</h1>
+          <p class="mb-0">We create original contents that engages and connects with people</p>
+          <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+          <div class="container pb-100 pt-100">
+            <a href="mailto: abc@example.com" type="button" class="btn btn-default btn-outline-primary" style="border-radius:50px; padding:17px">Talk to us!</a >
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row pb-100">
+        
+      </div> -->
+    </div>
+  </section>
   <footer class="footer has-cards">
     <div class="container container-lg">
       <div class="row">
@@ -65,6 +82,8 @@
       </div>
     </div>
   </footer>
+
+  <?php wp_footer(); ?>
   <!-- Core -->
   <script src="/theme/assets/vendor/jquery/jquery.min.js"></script>
   <script src="./theme/assets/vendor/popper/popper.min.js"></script>

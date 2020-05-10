@@ -11,7 +11,7 @@
         <p class="mb-0">We create original contents that engages and connects with people</p>
         <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
         <div class="container pb-100 pt-100">
-          <button type="button" class="btn btn-default btn-outline-primary" style="border-radius:50px; padding:17px">Talk to us!</button>
+          <a href="mailto: abc@example.com" type="button" class="btn btn-default btn-outline-primary" style="border-radius:50px; padding:17px">Talk to us!</a>
         </div>
       </div>
 
@@ -32,6 +32,4 @@
   </div>
 </section>
 
-<?php
-  get_footer(); 
-?>
+

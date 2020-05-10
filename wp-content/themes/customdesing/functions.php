@@ -8,6 +8,12 @@ function theme_option_setup(){
 
 add_action('init', 'theme_option_setup');
 
+function add_theme_scripts() { 
+    wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/theme/assets/vendor/bootstrap/bootstrap.min.js', array( 'jquery' ) );
+   
+}
+
+add_action('init','add_theme_scripts');
 
 // works post type
 // function get_custom_post_type(){

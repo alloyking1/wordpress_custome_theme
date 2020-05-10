@@ -30,7 +30,6 @@
     
     <!-- pull in style for plugins -->
     <?php wp_head(); ?>
-    
     <!-- Favicon -->
     <link href="<?php bloginfo('template_directory') ?>/theme/assets/img/brand/favicon.png" rel="icon" type="image/png">
  
@@ -38,7 +37,7 @@
 
 <body>
     <header class="header-global">
-        <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg  navbar-light headroom">
+        <!-- <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
             <div class="container">
                 <a class="navbar-brand mr-lg-5" href="./index.html">
                 <img alt="image" src="./assets/img/brand/white.png">
@@ -149,7 +148,57 @@
                 </ul>
                 </div>
             </div>
+        </nav> -->
+
+        <nav class="navbar navbar-expand-lg navbar-light navbar-transparen" style="color:blue !important">
+            <div class="container">
+                <a class="navbar-brand" href="<?php echo site_url('/') ?>">Default Color</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-default">
+                    <div class="navbar-collapse-header">
+                        <div class="row">
+                            <div class="col-6 collapse-brand">
+                                <a href="javascript:void(0)">
+                                    <img src="../../assets/img/brand/blue.png">
+                                </a>
+                            </div>
+                            <div class="col-6 collapse-close">
+                                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-icon" href="<?php echo site_url('/') ?>">
+                                Home
+                                <!-- <i class="ni ni-favourite-28"></i> -->
+                                <span class="nav-link-inner--text d-lg-none">Discover</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-icon" href="<?php echo site_url('/works') ?>">
+                                Works
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-icon" href="<?php echo site_url('/contact') ?>">
+                                Contact
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
         </nav>
+
+
         <!-- <div id="logo">LOGO</div>
         <?php wp_nav_menu('primary'); ?> -->
     </header> 
