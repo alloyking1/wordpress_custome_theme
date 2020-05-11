@@ -6,7 +6,7 @@
           <h1 class="display-1">SAY HI</h1>
           <p class="mb-0">We create original contents that engages and connects with people</p>
           <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-          <div class="container pb-100 pt-100">
+          <div class="container pb-100 pt-100" style="padding-top:2rem">
             <a href="mailto: abc@example.com" type="button" class="btn btn-default btn-outline-primary" style="border-radius:50px; padding:17px">Talk to us!</a >
           </div>
         </div>
@@ -83,20 +83,10 @@
     </div>
   </footer>
 
+  <!-- <canvas class="background"></canvas> -->
   <?php wp_footer(); ?>
-  <!-- Core -->
-  <script src="/theme/assets/vendor/jquery/jquery.min.js"></script>
-  <script src="./theme/assets/vendor/popper/popper.min.js"></script>
-  <script src="./theme/assets/vendor/bootstrap/bootstrap.min.js"></script>
-  <script src="./theme/assets/vendor/headroom/headroom.min.js"></script>
-  <!-- Optional JS -->
-  <script src="./theme/assets/vendor/onscreen/onscreen.min.js"></script>
-  <script src="./theme/assets/vendor/nouislider/js/nouislider.min.js"></script>
-  <script src="./theme/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
-  <!-- Argon JS -->
-  <script src="./theme/assets/js/argon.js?v=1.1.0"></script>
-
-  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  </canvas>
+  <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
 </body>
 
 </html>

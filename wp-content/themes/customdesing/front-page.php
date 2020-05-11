@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main id="particles-js">
+<main>
     <div class="position-relative">
       <section class="section section-lg pb-300 pt-200">
         <div>
@@ -95,7 +95,7 @@
       </div>
     </section>
 
-    <section class="section section-lg pb-300 pt-100">
+    <section class="section section-lg pb-300 pt-100 pb-100">
       <div class="container">
         <div>
           <blockquote class="blockquote text-center mt-5">
@@ -104,16 +104,16 @@
             <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
           </blockquote>
         </div>
-
+        <br>
         <div class="row">
           <div class="col-md-6 text-center">
             <div class="card card-profile shadow ">
-              <h1 class="pt-100">Branding</h1>
+              <h1 class="" style="padding-top:2rem">Branding</h1>
               <hr>
                 <p class="mb-0">Naming & identity, Communications, Content direction</p>
                 <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> 
               <hr>
-              <div class="container pb-100">
+              <div class="container" style="padding-bottom:2rem">
                 <a href="<?php echo site_url('/works') ?>" type="button" class="btn btn-default" style="border-radius:50px">View all works</a>
               </div>
             </div>
@@ -122,12 +122,12 @@
           
           <div class="col-md-6 text-center">
             <div class="card card-profile shadow">
-              <h1 class="pt-100">Strategy</h1>
+              <h1 class="" style="padding-top:2rem">Strategy</h1>
               <hr>
                 <p class="mb-0">Naming & identity, Communications, Content direction</p>
                 <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> 
               <hr>
-              <div class="container pb-100">
+              <div class="container" style="padding-bottom:2rem">
                 <a href="<?php echo site_url('/works') ?>" type="button" class="btn btn-default" style="border-radius:50px">View all works</a>
               </div>
             </div>

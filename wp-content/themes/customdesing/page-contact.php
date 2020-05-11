@@ -10,13 +10,13 @@
         <h1 class="display-1" style="color:white !important">PROJECT</h1>
         <p class="mb-0">We create original contents that engages and connects with people</p>
         <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-        <div class="container pb-100 pt-100">
+        <div class="container pb-100" style="padding-top:2rem">
           <a href="mailto: abc@example.com" type="button" class="btn btn-default btn-outline-primary" style="border-radius:50px; padding:17px">Talk to us!</a>
         </div>
       </div>
 
       <div class="col-md-4">
-        <ul style="list-style:none; line-height: 2.5rem;">
+        <ul style="list-style:none; line-height: 2.5rem; padding-top:3rem">
           <li><b>Address</b></li>
           <small>Around the world</small>
           <li><b>Phone</b></li>

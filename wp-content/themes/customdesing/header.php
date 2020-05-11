@@ -35,8 +35,9 @@
     
 </head>
 
-<body class="parallax">
-    <header class="header-global ">
+<body id="particles-js">
+
+    <header class="header-global container">
         <!-- <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
             <div class="container">
                 <a class="navbar-brand mr-lg-5" href="./index.html">
@@ -155,19 +156,25 @@
                 <a class="navbar-brand" href="<?php echo site_url('/') ?>">Default Color</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
+                    
+                    <!-- <i class="fa fa-bicycle"></i> -->
+                    <i class="fa fa-align-center"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-default">
                     <div class="navbar-collapse-header">
                         <div class="row">
                             <div class="col-6 collapse-brand">
                                 <a href="javascript:void(0)">
-                                    <img src="../../assets/img/brand/blue.png">
+                                    <!-- <img src="<?php bloginfo('template_directory') ?>/../../assets/img/brand/blue.png"> -->
+                                    Site Name
                                 </a>
                             </div>
                             <div class="col-6 collapse-close">
                                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
                                     <span></span>
                                     <span></span>
+
+
                                 </button>
                             </div>
                         </div>
@@ -202,3 +209,4 @@
         <!-- <div id="logo">LOGO</div>
         <?php wp_nav_menu('primary'); ?> -->
     </header> 
+    <canvas class="background"></canvas>
