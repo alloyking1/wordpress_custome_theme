@@ -5,9 +5,9 @@
       <section class="section section-lg pb-300 pt-200">
         <div>
           <blockquote class="blockquote text-center mt-5">
-            <h1 class="display-1 animate__animated animate__bounce">We create Original content</h1>
-            <p class="mb-0">We create original contents that engages and connects with people</p>
-            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            <h1 class="display-1 animate__animated animate__bounce">We create a reliable product that sells your goods and services and is also the face of your company on the Internet.</h1>
+            <!-- <p class="mb-0">We create a reliable product that sells your goods and services</p> -->
+            <!-- <footer class="blockquote-footer">and is also the <cite title="Source Title">face of your company on the Internet.</cite></footer> -->
           </blockquote>
         </div>
       </section>

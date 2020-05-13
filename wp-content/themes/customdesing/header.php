@@ -153,7 +153,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparen" style="color:blue !important">
             <div class="container">
-                <a class="navbar-brand" href="<?php echo site_url('/') ?>">Default Color</a>
+                <a class="navbar-brand" href="<?php echo site_url('/') ?>">Whatsup studio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     
@@ -166,7 +166,7 @@
                             <div class="col-6 collapse-brand">
                                 <a href="javascript:void(0)">
                                     <!-- <img src="<?php bloginfo('template_directory') ?>/../../assets/img/brand/blue.png"> -->
-                                    Site Name
+                                    Whatsup studio 
                                 </a>
                             </div>
                             <div class="col-6 collapse-close">

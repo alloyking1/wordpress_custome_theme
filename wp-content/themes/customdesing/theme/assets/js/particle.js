@@ -5,8 +5,9 @@
 window.onload = function() {
     Particles.init({
       selector: '.background',
-      maxParticles:'50',
-      sizeVariations:'5',
+      maxParticles:'15',
+      sizeVariations:'100',
       color:'gray',
+      size:'200'
     })
 }

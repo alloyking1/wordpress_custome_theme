@@ -8,8 +8,8 @@
       <div class="col-md-8">
         <h1 class="display-1" style="color:white !important">HAVE A</h1>
         <h1 class="display-1" style="color:white !important">PROJECT</h1>
-        <p class="mb-0">We create original contents that engages and connects with people</p>
-        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        <p class="mb-0">Feel free to reach out whether you're interested in working together, have coffee</p>
+        <!-- <footer class="blockquote-footer">We could be partiners too <cite title="Source Title"></cite></footer> -->
         <div class="container pb-100" style="padding-top:2rem">
           <a href="mailto: abc@example.com" type="button" class="btn btn-default btn-outline-primary" style="border-radius:50px; padding:17px">Talk to us!</a>
         </div>
@@ -20,9 +20,9 @@
           <li><b>Address</b></li>
           <small>Around the world</small>
           <li><b>Phone</b></li>
-          <small>+234 806 314 6940</small>
+          <small>+79772741368</small>
           <li><b>Email</b></li>
-          <small>alloyking1@gmail.com</small>
+          <small>poleghon@mail.ru</small>
         </ul>
       </div>
     </div>

@@ -5,6 +5,8 @@
         <div class="row pb-100">
           <div class="col">
             <h1 class="display-1">Works</h1>
+            <a href="<?php echo site_url('/category/website') ?>"><span class="badge badge-pill badge-info">Website</span></a>
+            <a href="<?php echo site_url('/category/mobile-app') ?>"><span class="badge badge-pill badge-success">Mobile app</span></a>
           </div>
         </div>
         <div class="row pb-100">
@@ -62,7 +64,7 @@
                             <div class="mt-5 py-5 border-top text-center">
                               <div class="row justify-content-center">
                                 <div class="col-lg-9">
-                                  <?php //the_featured_image() ?>
+                                  <?php the_category() ?>
                                 </div>
                               </div>
                             </div>
