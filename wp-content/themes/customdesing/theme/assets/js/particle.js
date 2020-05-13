@@ -7,7 +7,8 @@ window.onload = function() {
       selector: '.background',
       maxParticles:'15',
       sizeVariations:'100',
-      color:'gray',
+      color: ['#ede6e7'],
+      opacity:'0.23',
       size:'200'
     })
 }

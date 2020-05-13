@@ -3,11 +3,11 @@
 <main>
     <div class="position-relative">
       <section class="section section-lg pb-300 pt-200">
-        <div>
+        <div style="padding:2.5rem">
           <blockquote class="blockquote text-center mt-5">
-            <h1 class="display-1 animate__animated animate__bounce">We create a reliable product that sells your goods and services and is also the face of your company on the Internet.</h1>
-            <!-- <p class="mb-0">We create a reliable product that sells your goods and services</p> -->
-            <!-- <footer class="blockquote-footer">and is also the <cite title="Source Title">face of your company on the Internet.</cite></footer> -->
+            <h3 class="display-1 mb-0 animate__animated animate__bounce">We create a reliable product</h3>
+            <p class="mb-0 animate__heartBeat">We create a reliable product that sells your goods and services and is also the face of your company on the Internet.</p>
+            <footer class="blockquote-footer">We can also be the <cite title="Source Title">face of your company on the Internet.</cite></footer>
           </blockquote>
         </div>
       </section>
@@ -17,7 +17,7 @@
       <div class="container">
         <div class="row pb-100">
           <div class="col">
-            <h1 class="display-1">Works</h1>
+            <h1 class="display-1">We do</h1>
           </div>
         </div>
         <div class="row pb-100">
@@ -108,10 +108,10 @@
         <div class="row">
           <div class="col-md-6 text-center">
             <div class="card card-profile shadow ">
-              <h1 class="" style="padding-top:2rem">Branding</h1>
+              <h1 class="" style="padding-top:2rem">Websites</h1>
               <hr>
-                <p class="mb-0">Naming & identity, Communications, Content direction</p>
-                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> 
+                <p class="mb-0">Feel free to reach out whether you're interested in working together, have coffee, talk about movies or just want to say hi</p>
+                <!-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>  -->
               <hr>
               <div class="container" style="padding-bottom:2rem">
                 <a href="<?php echo site_url('/works') ?>" type="button" class="btn btn-default" style="border-radius:50px">View all works</a>
@@ -122,10 +122,10 @@
           
           <div class="col-md-6 text-center">
             <div class="card card-profile shadow">
-              <h1 class="" style="padding-top:2rem">Strategy</h1>
+              <h1 class="" style="padding-top:2rem">Mobile apps</h1>
               <hr>
-                <p class="mb-0">Naming & identity, Communications, Content direction</p>
-                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> 
+                <p class="mb-0">Feel free to reach out whether you're interested in working together, have coffee, talk about movies or just want to say hi</p>
+                <!-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>  -->
               <hr>
               <div class="container" style="padding-bottom:2rem">
                 <a href="<?php echo site_url('/works') ?>" type="button" class="btn btn-default" style="border-radius:50px">View all works</a>

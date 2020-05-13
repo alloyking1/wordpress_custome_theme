@@ -2,7 +2,7 @@
   get_header();   
 ?>
 
-<section style="background-color:#32325d; color:white">
+<section style="background-color:#32325d; color:white; height:100%; padding-bottom:190px">
   <div class="container pt-150">
     <div class="row pb-100">
       <div class="col-md-8">
