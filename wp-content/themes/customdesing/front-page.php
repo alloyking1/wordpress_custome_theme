@@ -13,14 +13,14 @@
       </section>
     </div>
     
-    <section>
+    <section class="">
       <div class="container">
         <div class="row pb-100">
           <div class="col">
-            <h1 class="display-1">We do</h1>
+            <h1 class="display-1">Works</h1>
           </div>
         </div>
-        <div class="row pb-100">
+        <div class="row pb-100 animate__animated scroll-animations">
           <?php 
             $args = array(
               'post_type' => 'post ',
